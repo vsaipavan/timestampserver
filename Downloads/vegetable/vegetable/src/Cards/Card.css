@@ -1,0 +1,36 @@
+/* Card.css */
+
+/* Card.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+    justify-content: space-between; /* Space cards evenly along the row */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    width: calc(23% - 32px); /* Adjust card width and consider margins */
+    /* height: 330px; */ /* You can remove this height if it's not needed */
+  }
+  
+  
+  .card-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  

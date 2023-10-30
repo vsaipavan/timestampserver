@@ -1,0 +1,51 @@
+/* .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ec75ae;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.6
+} */
+/* Apply styles to the navbar container */
+.navbar {
+    background-color:#FBC998; /* Background color */
+    padding: 1px 1px 1px 1px; /* Padding at the top and bottom */
+   
+    
+  }
+  
+  /* Style the ul list */
+  .navbar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: -5px;
+    text-align: end; /* Center-align the list items */
+    justify-content: center;
+  }
+  
+  /* Style the list items (li) */
+  .navbar li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 40px; /* Add margin to separate list items */
+  }
+  
+  /* Style the links (anchor tags) */
+  .navbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: black; /* Text color for links */
+    font-weight: bold; /* Bold font for links */
+    font-size: 15px; /* Font size for links */
+  }
+  
+  /* Hover effect for links */
+  .navbar a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
